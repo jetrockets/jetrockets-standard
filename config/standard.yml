@@ -10,4 +10,7 @@ Metrics/LineLength:
 StringLiterals:
   EnforcedStyle: single_quotes
 
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
 # Place your custom cops configration here
