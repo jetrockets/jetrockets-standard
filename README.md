@@ -24,14 +24,14 @@ Or install it yourself as:
 
 Put this into your Rubocop configration file
 
+### Rails
+
 ```yml
 inherit_gem:
   standard: jetrockets-standard/rails.yml
 ```
 
-## Usage with RubyGems
-
-Put this into your Rubocop configration file
+### RubyGems
 
 ```yml
 inherit_gem:
