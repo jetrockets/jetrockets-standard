@@ -2,8 +2,8 @@ require:
   - rubocop-rails
 
 inherit_from:
- - ./rspec.yml
- - ./standard.yml
+ - ./private/rspec.yml
+ - ./private/standard.yml
 
 inherit_mode:
   merge:
