@@ -1,0 +1,13 @@
+inherit_gem:
+  standard: config/base.yml
+
+AllCops:
+  TargetRubyVersion: 2.5
+
+Metrics/LineLength:
+  Max: 120
+
+StringLiterals:
+  EnforcedStyle: single_quotes
+
+# Place your custom cops configration here

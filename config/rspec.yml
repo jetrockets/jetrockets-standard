@@ -1,0 +1,4 @@
+require:
+  - rubocop-rspec
+
+# Place your custom configration for RSpec here

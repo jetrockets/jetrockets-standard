@@ -1,0 +1,9 @@
+inherit_from:
+ - ./rspec.yml
+ - ./standard.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+# Do not place any custom cops configuration here

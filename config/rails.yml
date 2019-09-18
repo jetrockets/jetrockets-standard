@@ -1,0 +1,15 @@
+require:
+  - rubocop-rails
+
+inherit_from:
+ - ./rspec.yml
+ - ./standard.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  TargetRailsVersion: 5.2
+
+# Place custom configuration for rubocop-rails cops here
