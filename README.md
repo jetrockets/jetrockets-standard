@@ -28,14 +28,14 @@ Put this into your Rubocop configration file
 
 ```yml
 inherit_gem:
-  standard: jetrockets-standard/rails.yml
+  jetrockets-standard: config/rails.yml
 ```
 
 ### RubyGems
 
 ```yml
 inherit_gem:
-  standard: jetrockets-standard/gems.yml
+  jetrockets-standard: config/gems.yml
 ```
 
 ## Why?
