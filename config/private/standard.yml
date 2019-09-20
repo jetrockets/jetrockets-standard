@@ -13,4 +13,7 @@ StringLiterals:
 Style/FrozenStringLiteralComment:
   Enabled: true
 
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: keyword
+
 # Place your custom cops configration here
