@@ -1,5 +1,6 @@
 require:
   - rubocop-rails
+  - standard
 
 inherit_from:
  - ./private/rspec.yml

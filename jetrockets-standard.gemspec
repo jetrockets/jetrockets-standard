@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'rubocop-rails', '~> 2.3.2'
   spec.add_dependency 'rubocop-rspec', '~> 1.35.0'
-  spec.add_dependency 'standard', '~> 0.1.4'
+  spec.add_dependency 'standard', '~> 0.1.9'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rake', '~> 10.0'
