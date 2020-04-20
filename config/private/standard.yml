@@ -4,7 +4,7 @@ inherit_gem:
 AllCops:
   TargetRubyVersion: 2.5
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 
 Style/StringLiterals:
