@@ -24,3 +24,6 @@ Style/Documentation:
 
 Style/NumericPredicate:
  EnforcedStyle: comparison
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: space
