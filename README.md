@@ -2,7 +2,10 @@
 
 Rubocop configuration to be used in JetRockets projects.
 
-Work in progress.
+Current default configuration includes:
+
+* rails 6.1
+* ruby 2.7
 
 ## Installation
 
@@ -14,11 +17,15 @@ gem 'jetrockets-standard'
 
 And then execute:
 
-    $ bundle
+``` bash
+  $ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install jetrockets-standard
+``` bash
+  $ gem install jetrockets-standard
+```
 
 ## Usage with Rails
 
@@ -29,6 +36,27 @@ Put this into your Rubocop configration file
 ```yml
 inherit_gem:
   jetrockets-standard: config/rails.yml
+```
+
+**How to change your target Rails version?**
+
+```yml
+inherit_gem:
+  jetrockets-standard: config/rails.yml
+
+AllCops:
+  TargetRailsVersion: 6.0
+  # TargetRailsVersion: 5.2
+```
+
+**How to change your target Ruby version?**
+
+```yml
+inherit_gem:
+  jetrockets-standard: config/rails.yml
+
+AllCops:
+  TargetRubyVersion: 3.0
 ```
 
 ### RubyGems

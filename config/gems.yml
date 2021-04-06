@@ -1,6 +1,6 @@
 require:
   - standard
-  
+
 inherit_from:
  - ./private/rspec.yml
  - ./private/standard.yml

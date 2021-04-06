@@ -11,7 +11,7 @@ inherit_mode:
     - Exclude
 
 AllCops:
-  TargetRailsVersion: 5.2
+  TargetRailsVersion: 6.1
 
 Style/AsciiComments:
  Enabled: false
