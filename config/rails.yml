@@ -23,7 +23,7 @@ Style/Documentation:
  Enabled: false
 
 Style/NumericPredicate:
- EnforcedStyle: comparison
+ EnforcedStyle: predicate
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: space
