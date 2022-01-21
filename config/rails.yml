@@ -27,3 +27,9 @@ Style/NumericPredicate:
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: space
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  AllowedMethods: touch
