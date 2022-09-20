@@ -4,8 +4,8 @@ Rubocop configuration to be used in JetRockets projects.
 
 Current default configuration includes:
 
-* rails 6.1
-* ruby 3.0
+* rails 7.0
+* ruby 3.1
 
 ## Installation
 
