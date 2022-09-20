@@ -2,7 +2,7 @@ inherit_gem:
   standard: config/base.yml
 
 AllCops:
-  TargetRubyVersion: 3.0
+  TargetRubyVersion: 3.1
 
 Layout/LineLength:
   Max: 120
@@ -15,5 +15,14 @@ Style/FrozenStringLiteralComment:
 
 Layout/EndAlignment:
   EnforcedStyleAlignWith: keyword
+
+Layout/MultilineArrayLineBreaks:
+  Enabled: true
+
+Layout/MultilineAssignmentLayout:
+  Enabled: true
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
 
 # Place your custom cops configration here
