@@ -2,6 +2,6 @@
 
 module Jetrockets
   module Standard
-    VERSION = '1.3.1'
+    VERSION = '1.29.0'
   end
 end
